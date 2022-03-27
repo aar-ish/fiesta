@@ -1,0 +1,232 @@
+html {
+    scroll-behavior: smooth;
+    padding: 0;
+  }
+  *,
+  *::before,
+  *::after {
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    margin: 0;
+    font-family: "Kumbh", sans-serif;
+}
+.card-section{
+    background-color: #bfe9fa;
+      justify-content: center;
+    padding: 2em;
+    margin-top: 4em;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 350px;
+    text-align: center;
+    padding: 1.5em 0;
+    border-radius: 2em;
+    border: 4px solid white;
+    background-color: white;
+    margin: 0 auto;
+  }
+  h2,h3{
+    font-family: "Newsreader", sans-serif;
+  }
+  .card-section p{
+    font-family: "Kumbh", sans-serif;
+  font-size: 19px;
+  color: #62778f;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: 500;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.424);
+    cursor: pointer;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .card img{
+      width: 300px;
+      margin:0;
+  }
+  .card + .card{
+      margin: 2em auto;
+  }
+  .card button{
+      background-color: black;
+      border: none;
+      color: white;
+      font-family: "Kumbh", sans-serif;
+      font-weight: 500;
+      font-size: 19px;
+      padding: 0.6em 1em;
+      border-radius: 15px;  
+      cursor: pointer;
+  }
+  .card button:hover{
+      filter:brightness(80%);
+  }
+  .card button:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(248, 246, 246, 0.7);
+  }
+  .card__section {
+    display: block;
+    margin: 0;
+    width: 90%;
+    max-width: 320px;
+  }
+  
+  .card-slide {
+    margin: 2em auto 4em auto;
+    padding: 2.2em 1em;
+    border-radius: 3em;
+    max-width: 320px;
+    box-shadow: none;
+    text-align: center;
+  }
+  .card-slide h3{
+    font-size: 28px;
+  }
+  .card-slide p{
+    font-family: "Kumbh", sans-serif;
+  font-size: 19px;
+  color: black;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: 500;
+  }
+  .cs2 {
+    padding: 2.9em 0;
+  }
+  
+  .cs3 {
+    padding: 2.9em 0;
+  }
+  
+  .card__tile {
+    max-width: 350px;
+    margin: 2em auto;
+    padding: 2em 0em;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px 4px rgba(0, 0, 0, 0.342);
+  }
+  .card__img {
+    max-width: 50%;
+  }
+  
+  .card__button {
+    font-family: "Bitter", serif;
+    font-weight: 500;
+    color: #000000;
+    background-color: #ffde59;
+    padding: 0.8em 1em;
+    border-radius: 2em;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.424);
+  }
+  .mini-h1{
+    font-size: 36px;
+    font-family: 'Karla',sans-serif;
+    text-decoration: underline;
+    color: black;
+  }
+  .murder
+  {
+    background-color: black;
+    padding: 2em 1em;
+    text-align: center;
+  }
+  .murder > h1{
+    font-family: "Karla",sans-serif;
+    font-size: 29px;
+    color: white;
+    margin-bottom: 2.5em;
+  }
+  .murder1 img{
+    width: 100%;
+    margin-bottom: -6em;
+    border-radius: 20px;
+  }
+
+  .murderDetails
+  {
+    
+  }
+  .murderH1{
+    color:white;
+    text-align:left;
+    font-size: 32px;
+    margin-bottom: 0em;
+  }
+
+  .murderH2{
+    font-family: 'Dancing Script', cursive;
+    color: #c41e34;
+    font-size: 49px;
+    margin-top: 0;
+    text-align: left;
+  }
+  .red-div{
+    background-color: #c41e34;
+    padding: 4em;
+  }
+  .red-button{
+    cursor: pointer;
+    background-color: #c41e34;
+    color: black;
+    padding: 0.5em 1em;
+    margin: 0em auto 1em auto;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Newsreader',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    z-index: 1000;
+  }
+  .blood{
+   z-index: -1000;
+  }
+  .review__img{
+    width: 90%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.678);
+    cursor: pointer;
+    border-radius: 2em;
+  }
+  .people{
+    margin: 5em 0;
+  }
+  .people > h1{
+    font-family: "Karla",sans-serif;
+    font-size: 29px;
+    color: black;
+    margin-bottom: 2.5em;
+    text-align: center;
+  }
+  footer{ 
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 0em;
+  }
+
+  @keyframes blood-load {
+    0% {
+      transform: translateY(-40%);
+    }
+  
+    100% {
+      transform: translateY(0%);
+    }
+  }
